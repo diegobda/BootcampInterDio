@@ -1,4 +1,4 @@
-Javascript Assíncrono
+### Javascript Assíncrono
 Este repositório contém a atividade prática do Curso "Javascript Assíncrono", que faz parte do Basecamp de Javascript que minstrei pela Digital Innovation One.
 
 Atividade: API "catAPI"
@@ -9,17 +9,15 @@ Utilize seus conhecimentos na manipulação do DOM para criar a imagem e ativar 
 
 
 
-1-Explicar o que sao promisses
-2-Ensinar como manipula-las
-3-Apresentar as palavras chaveas async e await
+#### 1-Explicar o que sao promisses
+#### 2-Ensinar como manipula-las
+#### 3-Apresentar as palavras chaveas async e await
 
-Definçao:
-Assíncrono
-que não ocorre ao mesmo tempo
+###### Definçao:
+Assíncrono tudo aquilo que não ocorre ao mesmo tempo :timer_clock:
 
-Promisses e objeto de processamento assíncronp
+Promisses e objeto de processamento assíncrona
 
-Inicialmente, seu valor é desconhecido. Ela ´pode entõao ser resolvida ou rejeitada
+Inicialmente, seu valor é desconhecido. Ela ´pode então ser resolvida ou rejeitada
 
-3 estagios promisses
-estruturas
+3 estágios promisses estruturas
