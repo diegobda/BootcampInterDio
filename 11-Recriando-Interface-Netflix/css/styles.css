@@ -1,0 +1,114 @@
+:root{
+    --red:#e50914;
+    --black:#141414;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*Elementos base*/
+body{
+    background: var(--black);
+    font-family:'Bebas Neue', Times, Serif;
+    color:white;
+}
+
+header .container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+
+}
+
+header .logomarca{
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+    margin-left: 6px;
+}
+
+header nav a {
+    text-decoration:none;
+    color:#AAA;
+    margin-right:10px;
+
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*Filmes principais*/
+.filmes-principais{
+    font-size: 15px;
+    height:450px;
+    width:auto;
+    background-size:cover;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-peak.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center; /**/
+    align-items:flex-start;/*Sempre começa da direita*/
+}
+
+.filmes-principais .desc{
+    margin-top :10px;
+    margin-bottom: 22px;
+    background-color:rgba(0,0,0,.25);
+    font-family: 'verdana';
+    font-size: 13px;
+    
+
+}
+.title {
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'trebuchet', arial, sans-serif;
+}
+
+.btn{
+    background-color:rgba(0,0,0,.50);
+    border:none;
+    color:white;
+
+    padding: 15px 15px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor:pointer;
+    transition: .3s ease all;
+}
+
+.btn:hover{
+    background-color:white;
+    color:black;
+}
+.btn i{
+    margin-right: 7px;
+}
+
+/**#Wrapper= ENVELOPAR*/
+
+.container{
+    margin-left: 30px;
+    margin-right :30px;
+}
+
+.filmes-principais .container{
+    width: 85%;
+}
+
+.box-film{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+.carousel-filmes{
+    margin-top:5px;
+}
